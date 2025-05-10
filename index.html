@@ -4,48 +4,47 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" href="images/favicon-32x32.png" type="image/png" />
+  <link rel="stylesheet" href="styles.css" />
   <title>Tequeños Gavidia</title>
 </head>
-<body style="background-color: #fcae1b; margin: 0;">
+<body>
 
   <!-- Barra de navegación -->
   <header id="arriba">
-    <div style="background-color: #fcae1b; padding: 10px;">
+    <div>
       <nav>
-        <a href="index.html" style="color: white;">INICIO</a> |
-        <a href="precios.html" style="color: white">PRECIOS</a> |
-        <a href="https://atupuerta.com.ar/25-de-mayo/gavidia" target="_blank" style="color: white">HAZ TU PEDIDO</a>
+        <a href="index.html">INICIO</a> |
+        <a href="precios.html">PRECIOS</a> |
+        <a href="https://atupuerta.com.ar/25-de-mayo/gavidia" target="_blank">HAZ TU PEDIDO</a>
       </nav>
     </div>
   </header>
 
   <!-- Encabezado -->
-  <div style="background-color: #0c4a94; color: white; text-align: center; padding: 10px;">
+  <div class="encabezado">
     <a href="index.html"><img width="100px" src="images/logo.png" alt="logo" /></a>
-    <h1 style="display: inline; color: white; -webkit-text-stroke: 1px black;">Tequeños Gavidia</h1>
+    <h1>Tequeños Gavidia</h1>
   </div>
 
   <!-- Primer par de bloques -->
-  <div style="display: flex; justify-content: center; gap: 2%; padding: 20px 0;">
-    <!-- Bloque Izquierdo -->
-    <div style="width: 45%; background-color: #0c4a94; color: white; padding: 1%;">
-      <h2 style="text-align: center; -webkit-text-stroke: 1px black;">¿Qué son los tequeños?</h2>
-      <p style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
-      <div style="text-align: center;"><img width="50%" src="images/quieres.png" alt="Quieres?" /></div>
+  <div class="bloques">
+    <div class="bloque">
+      <h2>¿Qué son los tequeños?</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+      <div><img src="images/quieres.png" alt="Quieres?" /></div>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
     </div>
 
-    <!-- Bloque Derecho -->
-    <div style="width: 45%; background-color: #0c4a94; color: white; padding: 1%;">
-      <h2 style="text-align: center; -webkit-text-stroke: 1px black;">Historia de los tequeños</h2>
-      <p style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
-      <div style="text-align: center;"><img width="55.4%" src="images/tequeñosgibli2.jpg" alt="Tequeños" /></div>
+    <div class="bloque">
+      <h2>Historia de los tequeños</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+      <div><img class="amplio" src="images/tequeñosgibli2.jpg" alt="Tequeños" /></div>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
     </div>
   </div>
 
   <!-- Video centrado -->
-  <div style="text-align: center; margin: 20px 0;">
+  <div class="video-centrado">
     <iframe width="640" height="480" src="https://www.youtube.com/embed/o7qjoF1ryhA"
       title="¿Cómo hacer tequeños? Receta de masa casera l Sumito Estévez"
       frameborder="0"
@@ -56,34 +55,32 @@
   </div>
 
   <!-- Segundo par de bloques -->
-  <div style="display: flex; justify-content: center; gap: 2%; padding: 20px 0;">
-    <!-- Bloque Izquierdo -->
-    <div style="width: 45%; background-color: #0c4a94; color: white; padding: 1%;">
-      <h2 style="text-align: center; -webkit-text-stroke: 1px black;">Horarios</h2>
-      <p style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
-      <div style="text-align: center;"><img width="50%" src="images/horarios.png" alt="Quieres?" /></div>
+  <div class="bloques">
+    <div class="bloque">
+      <h2>Horarios</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+      <div><img src="images/horarios.png" alt="Quieres?" /></div>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
     </div>
 
-    <!-- Bloque Derecho -->
-    <div style="width: 45%; background-color: #0c4a94; color: white; padding: 1%;">
-      <h2 style="text-align: center; -webkit-text-stroke: 1px black;">Locales</h2>
-      <p style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
-      <div style="text-align: center;"><img width="50%" src="images/tequeñosgibli.jpg" alt="Locales" /></div>
+    <div class="bloque">
+      <h2>Locales</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+      <div><img src="images/tequeñosgibli.jpg" alt="Locales" /></div>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
     </div>
   </div>
 
-  <!-- Parrafo con resaltado -->
-  <p style="padding: 0 2%;">
-    <mark><strong style="color: white; -webkit-text-stroke: 0.5px black; font-size: x-large;">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</strong></mark>
+  <!-- Párrafo con resaltado -->
+  <p class="resaltado">
+    <mark><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</strong></mark>
     Debitis et est, odit, temporibus corporis reiciendis maiores ipsa expedita aliquam labore accusamus? 
-    <em style="color: red;">Perferendis fugiat quaerat repellendus corrupti eius neque dolore?</em>
+    <em>Perferendis fugiat quaerat repellendus corrupti eius neque dolore?</em>
     <small>Odit adipisci explicabo natus magnam autem commodi consequatur impedit et illo?</small>
   </p>
 
   <!-- Pie de página -->
-  <footer style="text-align: center; padding: 20px;">
+  <footer>
     <h1><a href="#arriba">VOLVER ARRIBA</a></h1>
   </footer>
 

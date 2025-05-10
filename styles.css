@@ -1,0 +1,113 @@
+:root{
+    --color:#fcae1b
+}
+
+body {
+  background-color: var(--color);
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+header div {
+  background-color: #fcae1b;
+  padding: 10px;
+}
+
+.encabezado {
+  background-color: #0c4a94;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.encabezado h1 {
+  display: inline;
+  color: white;
+  -webkit-text-stroke: 1px black;
+}
+
+.bloques {
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+  padding: 20px 0;
+}
+
+.bloque {
+  width: 45%;
+  background-color: #0c4a94;
+  color: white;
+  padding: 1%;
+}
+
+.bloque h2 {
+  text-align: center;
+  -webkit-text-stroke: 1px black;
+}
+
+.bloque p {
+  text-align: justify;
+}
+
+.bloque img {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.bloque img.amplio {
+  width: 55.4%;
+}
+
+.video-centrado {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.resaltado {
+  padding: 0 2%;
+}
+
+.resaltado mark strong {
+  color: white;
+  -webkit-text-stroke: 0.5px black;
+  font-size: x-large;
+}
+
+.resaltado em {
+  color: red;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Fondo azul para páginas específicas como precios.html */
+.fondo-azul {
+  background-color: #0c4a94;
+}
+
+/* Contenedor de bloques con imágenes */
+.contenedor-flex {
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+  padding: 20px 0;
+}
+
+/* Puedes agregar esto si querés destacar el enlace activo en la barra de navegación */
+header nav a[href="precios.html"] {
+  font-weight: bold;
+  text-decoration: underline;
+}
