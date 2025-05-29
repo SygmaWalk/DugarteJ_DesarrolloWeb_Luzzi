@@ -105,9 +105,3 @@ footer {
   gap: 2%;
   padding: 20px 0;
 }
-
-/* Puedes agregar esto si querés destacar el enlace activo en la barra de navegación */
-header nav a[href="precios.html"] {
-  font-weight: bold;
-  text-decoration: underline;
-}

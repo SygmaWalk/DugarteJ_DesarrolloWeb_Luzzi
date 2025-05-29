@@ -9,7 +9,7 @@
 </head>
 <body>
 
-  <!-- Barra de navegación -->
+<!-- Barra de navegación con etiqueta semántica nav -->
   <header id="arriba">
     <div>
       <nav>
@@ -20,18 +20,77 @@
     </div>
   </header>
 
+  
   <!-- Encabezado -->
   <div class="encabezado">
     <a href="index.html"><img width="100px" src="images/logo.png" alt="logo" /></a>
     <h1>Tequeños Gavidia</h1>
   </div>
 
-  <!-- Primer par de bloques -->
+    <!-- Bloques de audios-->
+  <div class="bloques">
+    <div class="bloque">
+      <h2>Primer audio sin controles</h2>
+      <p style="text-align: center">Mientras compras tequeños</p>
+        <audio autoplay loop preload="auto">
+        <source src="sounds/wii.mp3" type="audio/mpeg">
+        <source src="sounds/wii.ogg" type="audio/ogg">
+        Tu navegador no soporta el elemento de audio.
+        </audio>
+        <div><img src="images/spongebob.gif" alt="Bob Esponja Bailando"/></div>
+    </div>
+
+    <div class="bloque">
+      <h2>Segundo audio con controles</h2>
+      <audio controls>
+        <source src="sounds/tubo.mp3" type="audio/mpeg">
+        <source src="sounds/tubo.ogg" type="audio/ogg">
+        Tu navegador no soporta el elemento de audio.
+        </audio>
+        <p>Nombre del tema: <strong>Efecto Tubo ¡CUIDADO CON LOS AURICULARES! ⚠️</strong></p>
+    </div>
+  </div>
+   
+  
+  
+  <!-- Bloques de videos-->
+  <div class="bloques">
+    <div class="bloque">
+      <h2>¿POR QUÉ COMPRAR TEQUEÑOS?</h2>
+      <video controls preload="auto" poster="images/logo.png">
+        <source src="videos/comprar.mp4" type="video/mp4">
+        <source src="videos/comprar.webm" type="video/webm">
+        <track src="videos/subtitulos.vtt" kind="subtitles" srclang="es" label="Español" default>
+        Tu navegador no soporta el video.
+      </video>
+      <p style="text-align: center">¿por qué?</p>
+    </div>
+
+    <div class="bloque">
+      <h2>Segundo video con controles</h2>
+      <video controls preload="auto" width="620" poster="images//venezolano.jpg" >
+        <source src="videos/venezuela.mp4" type="video/mp4">
+        <source src="videos/venezuela.webm" type="video/webm">
+        Tu navegador no soporta el video.
+      </video>
+      <p><em>VENEZUELA VENEZUELA VENEZUELA VENEZUELA VENEZUELA VENEZUELA VENEZUELA VENEZUELA VENEZUELA VENEZUELA</em> </p>
+    </div>
+  </div>
+  
+  
+  <!-- Bloque de imagenes y listas-->
   <div class="bloques">
     <div class="bloque">
       <h2>¿Qué son los tequeños?</h2>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
       <div><img src="images/quieres.png" alt="Quieres?" /></div>
+      <h3>Pasos para preparar tequeños:</h3>
+      <ol>
+        <li>Preparar la masa con los ingredientes.</li>
+        <li>Cortar el queso en tiras gruesas.</li>
+        <li>Envolver el queso con la masa.</li>
+        <li>Freír hasta que estén dorados.</li>
+      </ol>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
     </div>
 
@@ -39,7 +98,14 @@
       <h2>Historia de los tequeños</h2>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
       <div><img class="amplio" src="images/tequeños.jpg" alt="Tequeños" /></div>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <h3>Ingredientes típicos:</h3>
+      <ul>
+        <li>Queso blanco</li>
+        <li>Harina de trigo</li>
+        <li>Agua</li>
+        <li>Sal</li>
+        <li>Aceite</li>
+      </ul>
     </div>
   </div>
 
@@ -78,6 +144,35 @@
     <em>Perferendis fugiat quaerat repellendus corrupti eius neque dolore?</em>
     <small>Odit adipisci explicabo natus magnam autem commodi consequatur impedit et illo?</small>
   </p>
+
+
+  <!-- Lista de Definiciones-->
+  <div class="bloque">
+    <h2>Glosario Tequeñero</h2>
+    <dl>
+      <dt>
+        Masa
+      </dt>
+      <dd>Masa de trigo suave y elástica que se usa para envolver el queso.
+        <img src="images/masa.gif" alt="Masa" width="100"/><br>
+      </dd>
+
+      <dt>
+        Queso
+      </dt>
+      <dd>Queso blanco semiduro que se derrite ligeramente al freír.
+        <img src="images/queso.gif" alt="Queso" width="100" /><br>
+      </dd>
+      
+      <dt>
+        Aceite
+      </dt>
+      <dd>Aceite vegetal usado para freír los tequeños hasta que estén dorados.
+        <img src="images/aceite.gif" alt="Aceite" width="100" /><br>
+      </dd>
+    </dl>
+</div>
+
 
   <!-- Pie de página -->
   <footer>
