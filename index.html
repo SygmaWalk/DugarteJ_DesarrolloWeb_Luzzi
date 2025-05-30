@@ -32,7 +32,7 @@
     <div class="bloque">
       <h2>Primer audio sin controles</h2>
       <p style="text-align: center">Mientras compras tequeños</p>
-        <audio autoplay loop preload="auto">
+        <audio autoplay controls loop preload="auto">
         <source src="sounds/wii.mp3" type="audio/mpeg">
         <source src="sounds/wii.ogg" type="audio/ogg">
         Tu navegador no soporta el elemento de audio.
@@ -131,9 +131,7 @@
 
     <div class="bloque">
       <h2>Locales</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
-      <div><img src="images/tequeñosgibli.jpg" alt="Locales" /></div>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3251.0631064880354!2d-60.17518610573482!3d-35.42846671451998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1748642428714!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
   </div>
 
@@ -144,9 +142,33 @@
     <em>Perferendis fugiat quaerat repellendus corrupti eius neque dolore?</em>
     <small>Odit adipisci explicabo natus magnam autem commodi consequatur impedit et illo?</small>
   </p>
+  
+  <!--Archivo PDF-->
+  <div style="text-align: center;">
+    <iframe
+    src="pdf/Actividad_2.pdf"
+    width="50%"
+    height="500px"
+    loading="lazy"> 
+    </iframe> 
+  </div>
 
+  <div class="video-centrado">
+  <iframe
+    src="https://www.youtube.com/embed/o7qjoF1ryhA"
+    width="560"
+    height="315"
+    loading="lazy"
+    allowfullscreen
+    srcdoc="El video no pudo cargarse. <a href='https://www.youtube.com/watch?v=o7qjoF1ryhA' target='_blank'>Ver en YouTube</a>">
+  </iframe>
+</div>
+
+
+</div>
 
   <!-- Lista de Definiciones-->
+  <div>
   <div class="bloque">
     <h2>Glosario Tequeñero</h2>
     <dl>
@@ -154,25 +176,32 @@
         Masa
       </dt>
       <dd>Masa de trigo suave y elástica que se usa para envolver el queso.
-        <img src="images/masa.gif" alt="Masa" width="100"/><br>
+        <img src="images/masa.gif" alt="Masa"/><br>
       </dd>
 
       <dt>
         Queso
       </dt>
       <dd>Queso blanco semiduro que se derrite ligeramente al freír.
-        <img src="images/queso.gif" alt="Queso" width="100" /><br>
+        <img src="images/queso.gif" alt="Queso"/><br>
       </dd>
       
       <dt>
         Aceite
       </dt>
       <dd>Aceite vegetal usado para freír los tequeños hasta que estén dorados.
-        <img src="images/aceite.gif" alt="Aceite" width="100" /><br>
+        <img src="images/aceite.gif" alt="Aceite"/><br>
       </dd>
     </dl>
-</div>
+  </div>
+  </div>
 
+<!--Picture con diferentes resoluciones-->
+  <picture>
+  <source srcset="images/resoluciones/logo1200.jpg" media="(min-width: 900px)">
+  <source srcset="images/resoluciones/logo768.jpg" media="(min-width: 600px)">
+  <img src="images/resoluciones/logo480.jpg" alt="Tequeño delicioso">
+  </picture>
 
   <!-- Pie de página -->
   <footer>
